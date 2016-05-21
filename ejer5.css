@@ -1,0 +1,50 @@
+	body{
+		margin-left: 25%;
+		margin-top: 10%;
+		}
+	#nombre h2{
+		font-size: 0.85em;	
+	}
+	#nombre ul {
+		position: relative;
+		left:-35px;
+	}
+	#nombre li{
+	font-size: 0.78em;
+		list-style-type: none;
+		padding-right: 10px;
+		display: inline;
+		color: silver;
+		box-shadow: #000 1px 0px 0px 0px;	
+	}
+	.entrada{
+	color: orange;
+	width: 300px;
+	font-weight: bold;
+	float: left;
+	padding: 0px 0px 20px 20px;
+	}
+	#datos{
+		width: 400px;
+		display: inline;
+		float:left;
+		line-height: 20px;	
+	}
+	#datos ul{
+		position: relative;
+		list-style-type: none;
+		padding-left: 10px;
+	}
+	#prim{
+		font-weight: bold;
+	}
+	#final{
+		color:silver;
+	}
+	a:link{
+	text-decoration: none;
+			
+	}
+	
+	
+	
