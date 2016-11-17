@@ -1,6 +1,48 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto Mono", sans-serif}
-.w3-sidenav a,.w3-sidenav h4 {padding: 12px;}
-.w3-navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
+html,
+body,
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.65;
+    min-height: 100%;
+}
+
+body {
+    /* Offset body content by navbar height. */
+    margin-top: 71px;
+    padding-top: 0;
+}
+@media screen and (max-width: 768px) {
+    body {
+        /* Offset body content by navbar height. */
+        margin-top: 51px;
+        padding-top: 0;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-default {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    margin-bottom: 21px;
+    font-size: 48px;
+}
+
+h3 {
+    margin-bottom: 11px;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
 }
