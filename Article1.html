@@ -19,7 +19,7 @@
 
 
 <div class="w3-main" style="margin-left:150px;margin-right:150px" id="main">
-	<span class="w3-opennav w3-xlarge w3-btn-floating-large" onclick="w3_open()" id="openNav">&#9776;</span>
+	<span class="w3-opennav w3-xlarge" onclick="w3_open()" id="openNav">&#9776;</span>
 	<div class="w3-row w3-padding-64" id="header">
 		<div class="w3-container">
 			<h1 class="w3-text-black w3-centered">Titulo del Articulo Cientifico</h1>
@@ -83,7 +83,8 @@ keywords = "",
 	  document.getElementById("openNav").style.display = 'none';
 	}
 	function w3_close() {
-	  document.getElementById("main").style.marginLeft = "0%";
+	  document.getElementById("main").style.marginLeft = "150px";
+	  document.getElementById("main").style.marginRight = "150px";
 	  document.getElementById("mySidenav").style.display = "none";
 	  document.getElementById("openNav").style.display = "inline-block";
 	}
