@@ -7,14 +7,14 @@ html,
 body,
 p {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.65;
     min-height: 100%;
 }
 
 body {
     /* Offset body content by navbar height. */
-    margin-top: 71px;
+    margin-top: 70px;
     padding-top: 0;
 }
 @media screen and (max-width: 768px) {
