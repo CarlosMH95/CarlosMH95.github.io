@@ -57,7 +57,3 @@ pre,
 code {
     font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
 }
-
-pre {
-    margin: 0 0 1.5rem;
-    overflow: auto;
