@@ -13,14 +13,13 @@ p {
 }
 
 body {
-    /* Offset body content by navbar height. */
-    margin-top: 70px;
+    
+    margin-top: 50px;
     padding-top: 0;
 }
 @media screen and (max-width: 768px) {
     body {
-        /* Offset body content by navbar height. */
-        margin-top: 51px;
+        margin-top: 25px;
         padding-top: 0;
     }
 }
@@ -61,5 +60,9 @@ code {
 .w3-third p{
 	text-align: center;
 }
-
+#openNav{
+	-webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 1s;
+}
+}
  
