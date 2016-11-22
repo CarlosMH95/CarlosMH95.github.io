@@ -58,5 +58,8 @@ code {
     font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
 	font-size: 14px
 }
+.w3-third p{
+	text-align: center;
+}
 
  
