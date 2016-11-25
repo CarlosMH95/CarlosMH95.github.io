@@ -38,18 +38,16 @@
 				<p>El dataset presentado cuenta con un total de 155,530 imagenes.</p>
 				<p>Estas imagenes fueron obtenidas por medio de la grabacion de miembros del CIDIS, en 4 sesiones. En total se obtuvieron 10 videos con una duracion de 4 minutos cada uno.
 				Se pedia a los participantes que traigan ropa distinta, para asi poder dar variedad a las imagenes.
-				Luego de esto, se separaron los frames de los videos a una tasa de 5 frames por segundo.Todas estas imagenes fueron capturadas desde una perspectiva de top view.
+				Luego de esto, se separaron los frames de los videos a una tasa de 5 frames por segundo. Todas estas imagenes fueron capturadas desde una perspectiva de top view.
 				Las imagenes originales tienen una resolucion de 1280x720 pixeles.
 				Posteriormente, se realizo una clasificacion para decidir cuales imagenes podrian ser usadas para el entrenamiento.
 				Todas estas imagenes fueron capturadas desde una perspectiva de top view.
 				Las imagenes originales tienen una resolucion de 1280x720 pixeles.</p>
- 
 				<p>Se han dividido estas imagenes en dos carpetas: Originales y Entrenamiento.
 				En la carpeta Originales, se encuentran todas las imagenes que fueron adquiridas, sin ningun tipo de transformacion o procesamiento.
 				EN carpeta entrenamiento se encuentran imagenes que han sido procesadas mediante una transformacion utilizando algoritmos en MatLab.
 				A estas imagenes se les aplico una reduccion del tamano del 50%, dejandolas con una resolucion espacial de 640x360 pixeles para que asi el entrenamiento de las redes neuronales fuera mas rapido.</p>
-				<p>
-				 Las transformaciones fueron:
+				<p>Las transformaciones fueron:
 				<dl>
 					<dt>FLIPH: </dt>
 					<dd>Se le aplica un flip Horizontal a la imagen.</dd>
@@ -80,24 +78,21 @@
 						
 					 <dt>ROT180:</dt>
 						<dd>Se rota la imagen 180 grados en sentido horario.</dd>
-						
+				
 					 <dt>RESIZE:</dt>
 						<dd>Se modifica el tamano de la imagen , reduciendola en un 50%.</dd>
 					</dl>
 				Cada transformacion aplicada creaba una nueva imagen.
 				</p>
-	
 			<p>
 			La carpeta Originales se divide en:
 			<dl>
 				<dt>Clase Cabezas</dt>
 					<dl>
-					
 						<dt>-Head:</dt>
 							<dd>Esta carpeta almacena todas las imagenes en las que se reconocen las cabezas de los participantes. <b>Total:</b> 3662 imag</dd>
 						<dt>-No Head:</dt>
 							<dd>Esta carpeta almacena todas las imagenes en las que no se reconocen las cabezas de los participantes. <b>Total:</b> 4352 imag</dd>
-							
 					</dl>
 				<dt>Clase Caídas:</dt>
 					<dl>
@@ -110,17 +105,14 @@
 					   <dt>Pose 4:</dt>
 							<dd>Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion de resbalón semisentado, o arrodillado. <b>Total:</b> 1135 imagenes</dd>
 					</dl>
-
-				  
 				<dt>Clase Floor:</dt>
-					<dd>Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo vacio. <b>Total: 455 imagenes</dd>
+					<dd>Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo vacio. <b>Total: 455 imagenes</b></dd>
 				  
 				<dt>-Clase Obstacle:</dt>
-					<dd>Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo mas un obstaculo. <b>Total: 2019 imagenes</dd>
+					<dd>Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo mas un obstaculo. <b>Total: 2019 imagenes</b></dd>
 			 </dl>
 			 </p>
-				<p>
-					A continuacion se detalla el total de imagenes en cada carpeta, asi como las transformaciones que se les aplico a cada una de las imagenes.
+				<p>A continuacion se detalla el total de imagenes en cada carpeta, asi como las transformaciones que se les aplico a cada una de las imagenes.
 					<dl>
 						<dt>-Clase Cabezas
 							<dl>
