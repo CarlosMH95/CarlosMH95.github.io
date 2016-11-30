@@ -9,6 +9,7 @@
 <!--<link rel="stylesheet" href="css/style.css">-->
 <link rel="stylesheet" href="css/background.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--Aqui se encuentra el estilo que se utilizo para poner los colores, basado en w3CSS.-->
 <style>
 
 .w3-theme-l5 {color:#000 !important; background-color:#edfafc !important}
@@ -38,12 +39,12 @@
 
 <body>
 
-<!-- Navbar -->
+
 <div class="w3-container" id="header">
  <img src="resources/top-banner.png" class="w3-round" alt="Banner CIDIS" style="width:100%">
 </div>
 <div class="w3-main" style="margin-left:5%;margin-right:5%">
-	
+	<!--Aqui se encuentra el Nav Bar.-->
 	<ul class="w3-navbar w3-theme  w3-left-align w3-large">
 		<li>
 			<a href="#" class="w3-theme"></a>
@@ -55,9 +56,9 @@
 			<a href="#dataSet2" class="w3-hover-white page-scroll w3-text-white">Data Set 2</a>
 		</li>
 	</ul>
-
+<!--CONTENIDO PRINCIPAL DE LA PAGINA.-->
 	<div class="w3-row w3-padding-64">
-	  
+	  <!--Aqui se encuentran los containers para sumar mas datasets. -->
 		<div class="w3-container">
 			<h1 class="w3-text-theme" style="text-align: center;">CIDIS Datasets</h1>
 		</div>
@@ -70,6 +71,7 @@
 				</div>
 				<div class="w3-third w3-container">
 				  <h3 class="w3-text-theme">Data Set 1</h3>
+				  <!--Aqui se encuentra la descripcion de cada dataset, que debe ir de la mano con cada una de las referencias y proyectos-->
 				  <p>Este dataset cuenta con 155,530 imagenes, capturadas de la manera especificada en [1] y dentro del proyecto [A]</p>
 				</div>
 				<div class="w3-third w3-container w3-padding-64">
@@ -80,7 +82,7 @@
 			
 			</div>
 
-			<div class="w3-row w3-bottombar w3-padding-64 w3-hover-light-grey" id="dataSet2">
+			<div class="w3-row w3-bottombar  w3-hover-light-grey" id="dataSet2">
 				<div class="w3-third w3-container">
 					
 					<img src="resources/img2.jpg" style="margin-left:25%;" width="200" height="150">
@@ -96,7 +98,7 @@
 		</div>
 		
 		<div class="w3-container">
-			<h2 class="w3-text-theme">Como Citar nuestros Datasets</h2>
+			<h2 class="w3-text-theme">Como citar nuestros Datasets</h2>
 			<p>We grant permission to use and publish all images and disparity maps on this website. However, if you use our datasets, we request that you cite the appropriate paper(s): [1] for the first dataset and [2] for the second dataset.</p>
 		</div>
 		<div class="w3-container">
@@ -105,6 +107,7 @@
 				<table class="w3-table">
 					<tbody>
 						<tr>
+						<!--Aqui se encuentra la manera en como se ponen las referencias, donde el primer td representa el numero de referencia y el siguiente la referencia como tal.-->
 							<td valign="top">[1]</td>
 							<td>D. Scharstein and R. Szeliski. A taxonomy and evaluation of dense two-frame stereo correspondence algorithms.<br>
 								International Journal of Computer Vision, 47(1/2/3):7-42, April-June 2002.
@@ -125,6 +128,7 @@
 			<table class="w3-table">
 				<tbody>
 					<tr>
+					<!--Aqui se encuentra la manera en como se informa de los proyectos a los que pretenece cada articulo, donde el primer td representa el numero de referencia del proyecto y el siguiente el proyecto como tal.-->
 						<td valign="top">[A]</td>
 						<td>Support for this work was provided in part by NSF CAREER grant 9984485 and NSF grants IIS-0413169, IIS-0917109, and IIS-1320715.<br>
 						Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.
@@ -140,6 +144,7 @@
 			</table>
 		</div>
 	</div>
+	<!--PIE DE PAGINA-->
 	<div class="w3-container w3-theme w3-opacity " Style="width :100%">
 	
 	<div class="w3-threequarter w3-center">
