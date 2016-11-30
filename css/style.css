@@ -16,12 +16,12 @@ p {
 
 body {
     
-    margin-top: 50px;
+    margin-top: 0px;
     padding-top: 0;
 }
 @media screen and (max-width: 768px) {
     body {
-        margin-top: 25px;
+        margin-top: 0px;
         padding-top: 0;
     }
 }
