@@ -1,4 +1,11 @@
 body {
     background-image: url("../resources/fondo.png");
 	background-size:cover;
+	font-size: 12px;
+}
+h1{
+	font-size: 18px;
+}
+h2{
+	font-size: 14px;
 }
