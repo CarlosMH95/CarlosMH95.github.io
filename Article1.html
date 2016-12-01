@@ -35,19 +35,28 @@
 
 </style>
 <body>
-<nav class="w3-sidenav w3-light-grey w3-card-2" style="display:none" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">     &times;</a>
-  <a href="#abstract">Abstract</a>
-  <a href="#dsdescription">Data Set Description</a>
-  <a href="#code">Reference</a>
-</nav>
+
 
 <div class="w3-light-grey">
 <div class="w3-main" style="margin-left:100px;margin-right:100px" id="main">
 	<div class="w3-container" id="header">
 	 <img src="resources/top-banner.png" class="w3-round" alt="Banner CIDIS" style="width:100%">
+	 <ul class="w3-navbar w3-theme  w3-left-align w3-large">
+		<li>
+			<a href="#" class="w3-theme"></a>
+		</li>
+		<li class="w3-hide-medium w3-hide-small">
+			<a href="#abstract" class="w3-hover-white page-scroll w3-text-white">Abstract</a>
+		</li>
+		<li class="w3-hide-medium w3-hide-small">
+			<a href="#dsdescription" class="w3-hover-white page-scroll w3-text-white">Data Set Description</a>
+		</li>
+		<li class="w3-hide-medium w3-hide-small">
+			<a href="#code" class="w3-hover-white page-scroll w3-text-white">Reference</a>
+		</li>
+	</ul>
 	</div>
-	<span class="w3-opennav w3-xlarge" onclick="w3_open()" id="openNav">&#9776;</span>
+	
 	<div class="w3-row w3-padding-64" id="header">
 		<div class="w3-container">
 			<h1 class="w3-text-black w3-centered">Titulo del Articulo Cientifico</h1>
@@ -143,6 +152,6 @@ keywords = "",
 	  document.getElementById("openNav").style.display = "inline-block";
 	}
 </script>
-	
+  <script src="js/scrolling.js"></script>
 </body>
 </html>
