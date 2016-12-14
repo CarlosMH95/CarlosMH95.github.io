@@ -10,12 +10,12 @@ Las imagenes originales tienen una resolucion de 1280x720 pixeles.
 Se han dividido estas imagenes en dos carpetas: Originales y Entrenamiento.
 En la carpeta Originales, se encuentran todas las imagenes que fueron adquiridas, sin ningun tipo de transformacion o procesamiento.
 EN carpeta entrenamiento se encuentran imagenes que han sido procesadas mediante una transformacion utilizando algoritmos en MatLab.
- A estas imagenes se les aplico una reduccion del tamano del 50%, dejandolas con una resolucion espacial de 640x360 pixeles para que asi el entrenamiento de las redes neuronales fuera mas rapido.
+A estas imagenes se les aplico una reduccion del tamano del 50%, dejandolas con una resolucion espacial de 640x360 pixeles para que asi el entrenamiento de las redes neuronales fuera mas rapido.
  
- Las transformaciones fueron:
+ Las transformaciones aplicadas fueron:
  
  FLIPH: 
-	Se le aplica un flip Horizontal a la imagen
+	Se le aplica un Flip Horizontal a la imagen
 	
  FLIPV:
 	Se le aplica un Flip Vertical a la Imagen.
@@ -54,18 +54,18 @@ La carpeta Originales se divide en:
       -Head: Esta carpeta almacena todas las imagenes en las que se reconocen las cabezas de los participantes. Total: 3662 imag
       -No Head: Esta carpeta almacena todas las imagenes en las que no se reconocen las cabezas de los participantes. Total: 4352 imag
   
--Clase Caídas:
+-Clase Caídas: (Total: 3542)
 
-   -Pose 1: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion Boca arriba. Total: 1114 imagenes              
-   -Pose 2: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion Boca abajo.Total: 800 imagenes
-   -Pose 3: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion de lado, posición fetal. Total: 1072 imagenes
-   -Pose 4: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion de resbalón semisentado, o arrodillado. Total: 1135 imagenes
+   -Fall 1: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion Boca arriba. Total: 1012 imagenes              
+   -Fall 2: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion Boca abajo.Total: 733 imagenes
+   -Fall 3: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion de lado, posición fetal. Total: 878 imagenes
+   -Fall 4: Esta carpeta almacena todas las imagenes en las que los participantes estan en posicion de resbalón semisentado, o arrodillado. Total: 919 imagenes
 
 
   
- -Clase Floor:Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo vacio. Total: 455 imagenes
+ -Clase Floor:Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo vacio. Total: 2019 imagenes
   
- -Clase Obstacle: Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo mas un obstaculo. Total: 2019 imagenes
+ -Clase Obstacle: Esta carpeta contiene todas las imagenes en las que se diferencia el espacio de trabajo mas un obstaculo. Total: 455 imagenes
  
 
  Cada transformacion aplicada creaba una nueva imagen.
@@ -81,19 +81,19 @@ La carpeta Originales se divide en:
 
  -Clase Caidas
     
-	-Pose 1: 11517 imagenes
+	-Fall 1: 11517 imagenes
 		Transformaciones: (1047 X 11)
                    -FLIPH, FLIPV, GAUSSIAN1,GAUSSIAN2, SP1,SP2 ROT45, ROT90, ROT135, ROT180,RESIZE
     
-	-Pose 2: 8690 imagenes
+	-Fall 2: 8690 imagenes
 		Transformaciones:(790 X11)
                    -FLIPH, FLIPV, GAUSSIAN1,GAUSSIAN2, SP1,SP2 ROT45, ROT90, ROT135, ROT180,RESIZE
     
-	-Pose 3: 11847 imagenes
+	-Fall 3: 11847 imagenes
 		Transformaciones:(1077 X 11)
                    -FLIPH, FLIPV, GAUSSIAN1,GAUSSIAN2, SP1,SP2 ROT45, ROT90, ROT135, ROT180,RESIZE
     
-	-Pose 4:  3377 imagenes
+	-Fall 4:  3377 imagenes
 		Transformaciones:(307X11)
                    -FLIPH, FLIPV, GAUSSIAN1,GAUSSIAN2, SP1,SP2 ROT45, ROT90, ROT135, ROT180,RESIZE
 
